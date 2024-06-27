@@ -35,6 +35,7 @@ class NetworkCallModel {
     var topPicks = [TopPick]()
     var cuisines = [Cuisines]()
     static var mainURL = "https://raw.githubusercontent.com/NukeNalin/foodData/main/"
+    // FoodDeliveryDispatchGroupDemo-main
     
     func getHomeDataWithDispatchGroup(completion: @escaping ([Restaurant], [TopPick], [Cuisines], String) -> Void) {
         
